@@ -115,10 +115,19 @@ body {
   display: flex;
   flex-direction: column;
   flex: 1;
-  order: 1;
   border: 0px solid black;
   justify-content: center;
   align-items: flex-start;
+}
+
+.right-features {
+  order: 1;
+  margin-left: 2%;
+}
+
+.left-features {
+  order: -1;
+  margin-right: 2%;
 }
 
 #main {
@@ -126,7 +135,6 @@ body {
   flex-direction: column;
   flex: 2;
   border: 0px solid black;
-  margin-right: 2%;
   justify-content: center;
   align-items: flex-start;
 }
@@ -191,4 +199,9 @@ img {
   float: left;
   margin: 0 1em 1em 0;
   background-image: linear-gradient(-45deg, rgba(167, 206, 122, 0.808), rgb(226, 146, 71), rgb(255, 208, 208));
+}
+
+.centered {
+  align-self: center;
+  text-align: center;
 }
