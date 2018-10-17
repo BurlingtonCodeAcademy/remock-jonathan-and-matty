@@ -108,7 +108,6 @@ body {
   border: 0px solid black;
   margin: 2%;
   justify-content: flex-start;
-  position: absolute;
 }
 
 #features {
@@ -204,4 +203,155 @@ img {
 .centered {
   align-self: center;
   text-align: center;
+}
+
+#footer {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  background-color: lightgrey;
+  border: 0px solid black;
+  width: 100%;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  border: 0px solid black;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  border: 0px solid black;
+  min-height: 28vh;
+  min-width: 40vw;
+  padding: 16px 10px 10px 10px;
+  justify-content: center;
+}
+
+.form-top {
+  display: flex;
+  justify-content: space-between;
+  border: 0px solid black;
+  width: 101.5%;
+}
+
+.left-span {
+  width: 49%;
+  margin: 2px 1% 5px 0;
+  border: 0px solid black;
+}
+
+.right-span {
+  width: 49%;
+  margin: 2px 0 5px 1%;
+  border: 0px solid black;
+}
+
+#name {
+  width: 98%;
+}
+
+#email {
+  width: 98%;
+}
+
+textarea {
+  width: 100%;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  border: 0px solid black;
+  min-height: 28vh;
+  min-width: 40vw;
+  margin: 10px 10px 30px 10px;
+  padding: 8px;
+  justify-content: center;
+}
+
+.contact-left {
+  display: flex;
+  flex-direction: column;
+  border: 0px solid black;
+  padding: 10px;
+  width: 50%;
+}
+
+.contact-right {
+  display: flex;
+  flex-direction: column;
+  border: 0px solid black;
+  padding: 10px;
+  width: 50%;
+}
+
+.fa {
+  padding: 7px 12.5px 6px 6.5px;
+  font-size: 6px;
+  width: 8px;
+  text-align: center;
+  text-decoration: none;
+  margin: 7px;
+  border-radius: 50%;
+  background: rgb(109, 119, 141);
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-home {
+  color: white;
+}
+
+.fa-phone {
+  color: white;
+}
+
+.fa-envelope {
+  color: white;
+  font-size: 4px;
+  padding: 6px 13.5px 7px 5.5px;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+
+
+.left-link-span {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  border: 0px solid black;
+  padding-bottom: 8px;
+}
+
+.right-link-span {
+  display: flex;
+  flex-direction: column;
+  flex: 9;
+  justify-content: center;
+  border: 0px solid black;
+  padding-bottom: 8px;
 }
